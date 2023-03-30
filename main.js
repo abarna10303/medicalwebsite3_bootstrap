@@ -34,3 +34,15 @@ $('.test-carousel').owlCarousel({
         },
     }
 });
+
+function showNavbar(){
+    document.querySelector(".navbar-collapse").style.display = "none"
+    document.querySelector(".navbar-toggler").style.display = "block"
+    document.querySelector(".nav-button").style.display = "block"
+}
+
+function hideNavbar(){
+    document.querySelector(".navbar-collapse").style.display = "block"
+    document.querySelector(".navbar-toggler").style.display = "none"
+    document.querySelector(".nav-button").style.display = "none"
+}

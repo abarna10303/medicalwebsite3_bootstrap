@@ -24,6 +24,10 @@ a
 {	
 	background-color:white;
 }
+.navbar>.container
+{
+	flex-wrap: nowrap !important;
+}
 .header-scrolled
 {
 	top:0;
@@ -38,7 +42,7 @@ a
 	background-color:#65c9cd;
 	border:none;
 	color:white;
-	padding:10px;
+	padding: 8px;
 	border-radius:5px;
 }
 .about-back1
@@ -78,10 +82,7 @@ a
 	padding:10px;
 	border-radius:5px;
 }
-.carousel-control-prev-icon
-{
 
-}
 .pre-icon
 {
 	background-color:#65c9cd !important;
@@ -217,7 +218,7 @@ a
 /*DEPARTMENT SECTION*/
 .depart-section
 {
-	margin:50px 0px;
+	padding:100px 50px 0px;
 }
 .depart-section p
 {
@@ -413,9 +414,9 @@ a
 	background-color:#eeeeee;
 }
 /* OVER ALL SECTION*/
-.about-section,.all-section
+.about-section,.all-section,.service-container
 {
-	margin:50px 0px;
+	padding:100px 50px 0px;
 }
 
 .about-title h1,.service-title h1,.form-title h1,.depart-title h1
@@ -438,4 +439,18 @@ a
 	color:grey;
 	font-family:sans-serif;
 	text-align:center;
+}
+@media(min-width:320px)
+{
+	.navbar-toggler
+	{
+		display: block ;
+	}
+	
+}@media(min-width:990px)
+{
+	.navbar-toggler
+	{
+		display: none !important;
+	}
 }
